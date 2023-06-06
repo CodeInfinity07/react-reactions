@@ -1,6 +1,6 @@
 export default 'Reactions'
 
-export FacebookSelector from './components/facebook/FacebookSelector'
+export FacebookSelectorRC from './components/facebook/FacebookSelectorRC'
 export GithubSelector from './components/github/GithubSelector'
 export PokemonSelector from './components/pokemon/PokemonSelector'
 export SlackSelector from './components/slack/SlackSelector'

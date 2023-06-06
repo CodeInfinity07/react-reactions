@@ -5,7 +5,7 @@ import icons from '../../helpers/icons'
 
 import FacebookSelectorEmoji from './FacebookSelectorEmoji'
 
-export const FacebookSelector = ({ iconSize, reactions, variant, onSelect }) => {
+export const FacebookSelectorRC = ({ iconSize, reactions, variant, onSelect }) => {
   const styles = reactCSS({
     'default': {
       selector: {
@@ -40,4 +40,4 @@ FacebookSelector.defaultProps = {
   variant: 'facebook',
 }
 
-export default FacebookSelector
+export default FacebookSelectorRC

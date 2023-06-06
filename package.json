@@ -1,6 +1,6 @@
 {
-  "name": "rex-react-reactions",
-  "version": "0.1.4",
+  "name": "rexchat-react-reactions",
+  "version": "0.1.5",
   "description": "Reaction pickers and counters from Slack, Pokemon, Github, Facebook & Youtube",
   "main": "lib/index.js",
   "scripts": {
@@ -12,12 +12,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/casesandberg/react-reactions.git"
+    "url": "git+https://github.com/CodeInfinity07/react-reactions"
   },
   "author": "case <case@casesandberg.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/casesandberg/react-reactions/issues"
+    "url": "https://github.com/CodeInfinity07/react-reactions/issues"
   },
   "homepage": "https://casesandberg.github.io/react-reactions/",
   "keywords": [
