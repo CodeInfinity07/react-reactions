@@ -9,11 +9,7 @@ export const FacebookSelector = ({ iconSize, reactions, variant, onSelect }) => 
   const styles = reactCSS({
     'default': {
       selector: {
-        backgroundColor: '#fff',
-        borderRadius: '50px',
-        padding: '2px',
-        boxShadow: '0 0 0 1px rgba(0, 0, 0, .05), 0 1px 2px rgba(0, 0, 0, .15)',
-        display: 'flex',
+        display: 'flex'
       },
       icon: {
         width: `${ iconSize + 10 }px`,
@@ -39,7 +35,7 @@ export const FacebookSelector = ({ iconSize, reactions, variant, onSelect }) => 
 }
 
 FacebookSelector.defaultProps = {
-  reactions: ['like', 'love', 'haha', 'wow', 'sad', 'angry'],
+  reactions: ['love', 'haha', 'wow', 'sad'],
   iconSize: 38,
   variant: 'facebook',
 }
