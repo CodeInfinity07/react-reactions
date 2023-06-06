@@ -1,6 +1,6 @@
 {
-  "name": "rexchat-react-reactions",
-  "version": "0.1.5",
+  "name": "rc-react-reactions",
+  "version": "0.1.6",
   "description": "Reaction pickers and counters from Slack, Pokemon, Github, Facebook & Youtube",
   "main": "lib/index.js",
   "scripts": {
