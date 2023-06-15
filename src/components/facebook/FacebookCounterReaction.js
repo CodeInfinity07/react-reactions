@@ -1,8 +1,7 @@
 import React from 'react'
 import reactCSS from 'reactcss'
-import icons from '../../helpers/icons'
 
-export const FacebookCounterReaction = ({ reaction, bg, index }) => {
+export const FacebookCounterReaction = ({ reaction, bg, index, icons }) => {
   const styles = reactCSS({
     'default': {
       reaction: {

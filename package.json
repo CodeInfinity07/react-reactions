@@ -1,6 +1,6 @@
 {
-  "name": "rc-react-reactions",
-  "version": "0.1.6",
+  "name": "reactjs-fb-reactions",
+  "version": "0.1.7",
   "description": "Reaction pickers and counters from Slack, Pokemon, Github, Facebook & Youtube",
   "main": "lib/index.js",
   "scripts": {
