@@ -5,16 +5,14 @@ import { listOfNames } from '../../helpers/strings'
 
 import FacebookCounterReaction from './FacebookCounterReaction'
 
-export const FacebookCounter = ({ counters, user, important, onClick, bg }) => {
+export const FacebookCounter = ({ counters, user, important, onClick, bg, icons }) => {
   const styles = reactCSS({
     'default': {
       counter: {
         display: 'flex',
         cursor: 'pointer',
         color: '#365899',
-        fontFamily: `"San Francisco", -apple-system, BlinkMacSystemFont,
-          ".SFNSText-Regular", sans-serif`,
-        fontSize: '12px',
+        fontSize: '10px',
         fontWeight: '500',
       },
       name: {
@@ -51,6 +49,7 @@ export const FacebookCounter = ({ counters, user, important, onClick, bg }) => {
             reaction={ reaction }
             index={ reactions.length - i }
             bg={ bg }
+            icons={ icons}
           />
         )
       }) }
